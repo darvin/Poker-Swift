@@ -15,6 +15,7 @@
 		57D5AB8A1AE8C3C1005B158E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D5AB891AE8C3C1005B158E /* Images.xcassets */; };
 		57D5AB8D1AE8C3C1005B158E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D5AB8B1AE8C3C1005B158E /* LaunchScreen.xib */; };
 		57D5AB991AE8C3C1005B158E /* PokerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D5AB981AE8C3C1005B158E /* PokerTests.swift */; };
+		57D5ABA31AE8C3D8005B158E /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D5ABA21AE8C3D8005B158E /* Engine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		57D5AB921AE8C3C1005B158E /* PokerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D5AB971AE8C3C1005B158E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57D5AB981AE8C3C1005B158E /* PokerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerTests.swift; sourceTree = "<group>"; };
+		57D5ABA21AE8C3D8005B158E /* Engine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				57D5AB891AE8C3C1005B158E /* Images.xcassets */,
 				57D5AB8B1AE8C3C1005B158E /* LaunchScreen.xib */,
 				57D5AB7C1AE8C3C1005B158E /* Supporting Files */,
+				57D5ABA21AE8C3D8005B158E /* Engine.swift */,
 			);
 			path = Poker;
 			sourceTree = "<group>";
@@ -162,6 +165,8 @@
 		57D5AB711AE8C3C0005B158E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Sergey Klimov";
 				TargetAttributes = {
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57D5AB831AE8C3C1005B158E /* GameScene.swift in Sources */,
+				57D5ABA31AE8C3D8005B158E /* Engine.swift in Sources */,
 				57D5AB851AE8C3C1005B158E /* GameViewController.swift in Sources */,
 				57D5AB7F1AE8C3C1005B158E /* AppDelegate.swift in Sources */,
 			);
@@ -419,6 +425,7 @@
 				57D5AB9E1AE8C3C1005B158E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57D5AB9F1AE8C3C1005B158E /* Build configuration list for PBXNativeTarget "PokerTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +434,7 @@
 				57D5ABA11AE8C3C1005B158E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

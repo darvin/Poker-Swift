@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PokerTests/PokerTests.swift"
+            timestampString = "451472406.014118"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "testDeck()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PokerTests.PokerTests.testDeck (PokerTests.PokerTests)() -&gt; ()"
+                  moduleName = "PokerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/darvin/Desktop/Poker/PokerTests/PokerTests.swift"
+                  timestampString = "451472545.737528"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "339">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PokerTests.PokerTests.(testDeck (PokerTests.PokerTests) -&gt; () -&gt; ()).(implicit closure #1)"
+                  moduleName = "PokerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/darvin/Desktop/Poker/PokerTests/PokerTests.swift"
+                  timestampString = "451472545.737836"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PokerTests.PokerTests.(testDeck (PokerTests.PokerTests) -&gt; () -&gt; ()).(implicit closure #2)"
+                  moduleName = "PokerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/darvin/Desktop/Poker/PokerTests/PokerTests.swift"
+                  timestampString = "451472545.738058"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "9">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

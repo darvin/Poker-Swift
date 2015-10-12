@@ -8,6 +8,7 @@
 
 import UIKit
 import XCTest
+import Poker
 
 class PokerTests: XCTestCase {
     
@@ -21,9 +22,11 @@ class PokerTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testDeck() {
         // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        var pokerDeck = Poker.GameEngine.pokerDeck()
+        println("Deck: |\(pokerDeck)|")
+        XCTAssertEqual(pokerDeck.count, 52, "Should be proper desc")
     }
     
     func testPerformanceExample() {
